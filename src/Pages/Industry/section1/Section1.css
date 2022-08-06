@@ -1,0 +1,57 @@
+header.container{
+    width: var(--sm);
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1rem;
+    width: 100%;
+    position: sticky;
+    top: 0; 
+    background: var(--color-tertiary);
+    z-index: 1111;
+    margin-bottom: 3rem;
+}
+
+.nav-logo {
+    display: flex;
+    flex: 1;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap:2rem;
+}
+
+.nav-links a{
+    color: var(--color-bg);
+    font-size: 1.2rem;
+}
+
+.enrol-btn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.enrol-btn img {
+    width: 22%;
+    border: 8px solid var(--color-primary);
+    border-radius: 5rem;
+    background: #ff6c85;
+    position: relative;
+    z-index: 1111;
+}
+
+.enrol-btn a {
+    background: var(--color-primary);
+    padding: 0.8rem 2.5rem;
+    border-radius: 2rem;
+    margin-left: -2rem;
+    color: #fff;
+}

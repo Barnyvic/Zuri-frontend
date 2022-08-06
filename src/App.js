@@ -1,24 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+// import LandingPage from "./Components/Firstpage/Firstpage";
+// import Section5 from "./Pages/Industry/section5/Section5";
+import Industry from './Pages/Industry/Industry'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Industry />
+    </>
   );
 }
 

@@ -1,0 +1,89 @@
+body{
+    background-image: url('../Assets/svg/hero-bg.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.show {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.show h2{
+    margin: 0 1.25rem 4.6875rem;
+    padding: 3.75rem 0 0;
+}
+
+.show h1{
+    font-size: 2rem;
+    margin: 0 0 2.25rem;
+}
+
+.show p {
+    line-height: 1.5;
+    font-weight: 500;
+    color: #514949;
+    width: 49%;
+    margin: 0 auto;
+}
+
+.show p a{
+    color: var(--color-primary);
+}
+
+.button-class{
+    margin-top: 6rem;
+}
+
+.btn {
+    border: 1px solid var(--color-primary);
+    padding: 1rem 2rem;
+    margin: 0 1rem 0 1rem;
+    font-size: 1.1rem;
+    background: transparent;
+}
+
+.show .button-class .btn-primary {
+    background: var(--color-primary);
+    border-color: var(--color-primary);
+    color: #fff;
+    transition: var(--transition);
+} 
+
+.show .button-class .btn-primary:hover{
+    background-color: transparent;
+    color: var(--color-primary);
+}
+
+.show .button-class .btn-secondary {
+    background: #fff;
+    border-color: var(--color-primary);
+    transition: var(--transition);
+    color: var(--color-primary);
+} 
+
+.show .button-class .btn-secondary:hover{
+    background-color: var(--color-primary);
+    color: #fff;
+}
+
+
+@media screen and (max-width: 1024px) {
+
+    .show p {
+        width: var(--sm);
+    }
+
+    .button-class {
+        margin: 3rem auto;
+         display: flex;
+        flex-direction: column;
+    }
+
+    .button-class a{
+        margin: 0.5rem auto;
+    }
+}
+

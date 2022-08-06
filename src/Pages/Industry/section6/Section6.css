@@ -1,0 +1,130 @@
+.section-six {
+    background: var(--color-primary);
+    padding: 5rem 0 1rem 0;
+}
+
+.training-section img{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.img-con{
+    width: 7%;
+    position: relative;
+    left: 20rem;
+}
+
+.img-con img {
+    width: 100%;
+}
+
+.training {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    color: var(--color-modal);
+    width: 85%;
+}
+
+.quality {
+    width: 75%;
+}
+
+.quality h1 {
+    font-size: 2.5rem;
+    width: 100%;
+}
+
+.quality p {
+    width: 86%;
+    font-size: 1.12rem;
+    font-weight: 600;
+}
+
+.p-tag {
+    padding: 2rem 6rem 2.5rem 0;
+}
+
+.split {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 2rem 0 0;
+    gap: 1rem;
+    width: 100%;
+}
+
+.image1 img {
+    width: 100%;
+}
+
+.split .deco {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.4rem ;
+    border: 2px solid var(--color-modal);
+    border-radius: 3rem;
+    width: 100%;
+}
+
+.girl-container {
+    width: 100%;
+    margin-top: -6rem;
+}
+
+.girl-container img {
+    width:100%;
+}
+
+.quality a{
+    padding: 0.5rem 2rem;
+    border-radius: 3rem;
+    background: var(--color-modal);
+    color: var(--color-primary);
+    font-size: 1.124rem;
+}
+
+.dot-container {
+    width: 10%;
+    margin: 2rem;
+}
+
+.dot-container img {
+    width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+    .training {
+        flex-wrap: wrap;
+    }
+
+    .quality {
+        width: 100%
+    }
+
+    .quality h1 {
+        font-size: 2rem;
+        width: 100%;
+    }
+
+    .quality p {
+        width: 100%;
+    }
+
+    .split {
+        display: flex;
+        width: 100%;
+    }
+
+    .girl-container {
+        margin-top: 3rem;
+    }
+}
+
+@media screen and (max-width:900px) {
+     .split {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}

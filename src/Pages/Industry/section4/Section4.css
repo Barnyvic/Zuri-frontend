@@ -1,0 +1,79 @@
+section.section-three {
+    margin: 2rem auto;
+    width: 90%;
+}
+
+.why-zuri {
+    width: var(--sm);
+}
+
+.star-container {
+    display: flex;
+    mix-blend-mode: darken;
+    align-items: center;
+    width: 100%;
+}
+
+.star img {
+    width: 100%;
+}
+
+.star-container .zuri p {
+    font-size: 1.5rem;
+    color: var(--color-primary);
+}
+
+.star-container .zuri h1{
+    font-size:2.4rem;
+    width: 65%;
+    color: #1b1a20;
+}
+
+.zuri-image {
+    margin: 0 auto;
+    width: 50%;
+}
+
+@media screen and (max-width: 1224px) {
+    .star-container .zuri h1{
+        font-size: 1.875rem;
+        width: 85%;
+    }
+
+    .star-container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .star-container {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+     .star-container .zuri h1{
+        font-size: 1.5rem;
+        width: 100%;
+    }
+
+    .star {
+        display: none;
+    }
+    .zuri-image {
+         margin: 0 auto;
+         width: 15%;
+    }
+
+     .zuri-image img {
+        width: 100%;
+     }
+
+    .star-container .zuri h1{
+        font-size:1.6rem;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    
+}

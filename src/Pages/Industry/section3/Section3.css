@@ -1,0 +1,46 @@
+.ingressive-for-good {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: var(--sm);
+  margin: 0rem auto;
+}
+
+.ingressive-for-good .words p {
+  font-size: 1.3rem;
+  padding-left: 4rem;
+}
+
+.ingressive-for-good .words p a {
+  color: #07b007;
+  text-decoration: underline;
+}
+
+.ingressive-for-good .logo {
+  width: 71%;
+  mix-blend-mode: darken;
+  padding-left: 3rem;
+}
+
+@media screen and (max-width: 900px) {
+  .ingressive-for-good {
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 1rem 0;
+  }
+
+  .ingressive-for-good .words h1 {
+    font-size: 1.3rem;
+  }
+
+  .ingressive-for-good .words p {
+    font-size: 1rem;
+    padding-left: 0;
+  }
+
+  .ingressive-for-good .logo {
+    mix-blend-mode: darken;
+    padding-left: 0;
+    margin: 0 auto;
+  }
+}
