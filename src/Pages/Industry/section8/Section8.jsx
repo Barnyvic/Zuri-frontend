@@ -33,9 +33,7 @@ const Section8 = () => {
               </AccordionSummary>
               <AccordionDetails>
                 <Typography>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
-                  eget.
+                  No, the program is completely free thanks to Ingressive For Good
                 </Typography>
               </AccordionDetails>
             </Accordion>
