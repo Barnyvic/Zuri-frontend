@@ -1,5 +1,7 @@
 import React from 'react'
 import './Firstpage.css'
+import {BrowserRouter as Router, Link} from 'react-router-dom';
+import '../../Pages/Industry/Industry'
 
 const Firstpage = () => {
   return (
@@ -18,14 +20,20 @@ const Firstpage = () => {
           <a href="/#/">projects and goals</a>
         </p>
 
-        <div class="button-class">
-          <a class="btn btn-primary" href="./Pages/industry.html">
-            I'm new to the industry
-          </a>
-          <a class="btn btn-secondary" href="./Pages/experience.html">
-            I need industry experience
-          </a>
-        </div>
+        <Router>
+          <div class="button-class">
+            <Link to="../../Pages/Industry/Industry.jsx">
+              <button className="btn btn-primary">
+                I'm new to the industry
+              </button>
+            </Link>
+            <Link to="../../Pages/Experience/">
+              <button className="btn btn-secondary">
+                I need industry experience
+              </button>
+            </Link>
+          </div>
+        </Router>
       </div>
     </section>
   );
