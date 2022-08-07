@@ -38,6 +38,10 @@ hr {
     margin: 0 auto;
 }
 
+h1 {
+  font-size: 2.5rem;
+}
+
 /* .btn-primary {
   padding: 8px 25px;
   border-radius: 3rem;

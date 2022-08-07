@@ -1,11 +1,65 @@
+.accordion {
+  margin: 1rem auto;
+}
+
 .title-container {
-    text-align: center;
+  text-align: center;
 }
 
 .title-container span {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .title-container h1 {
-    font-size: 2.5rem;
+  font-size: 2.5rem;
+}
+
+.accordion-container {
+    width: 80%;
+    margin: 3rem auto;
+}
+
+.wire-container {
+    width: 10%;
+    position: relative;
+    top: 2rem;
+    left: 8rem;
+}
+
+.wire-container img {
+    width: 100%;
+}
+
+.button button {
+    border: 0;
+    padding: 0.8rem 2rem;
+    background: var(--color-primary);
+    color: #fff;
+    border-radius: 2rem;
+    position: relative;
+    font-size: 1.1rem;
+}
+
+.fi {
+    display:flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.title-container1{
+    width: 100%;
+    display: grid;
+    place-items: center;
+    padding-bottom: 3rem;
+}
+
+@media screen and (max-width: 600px) {
+    .fi {
+        display:block;
+        text-align: center  ;
+    }
+
+    .fi p {
+        padding-bottom: 1rem;
+    }
 }
