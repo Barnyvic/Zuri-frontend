@@ -1,7 +1,7 @@
-import React from 'react'
-import './Firstpage.css'
-import {BrowserRouter as Router, Link} from 'react-router-dom';
-import '../../Pages/Industry/Industry'
+import React from "react";
+import "./Firstpage.css";
+import { Link } from "react-router-dom";
+import "../../Pages/Industry/Industry";
 
 const Firstpage = () => {
   return (
@@ -20,23 +20,19 @@ const Firstpage = () => {
           <a href="/#/">projects and goals</a>
         </p>
 
-        <Router>
-          <div class="button-class">
-            <Link to="../../Pages/Industry/Industry.jsx">
-              <button className="btn btn-primary">
-                I'm new to the industry
-              </button>
-            </Link>
-            <Link to="../../Pages/Experience/">
-              <button className="btn btn-secondary">
-                I need industry experience
-              </button>
-            </Link>
-          </div>
-        </Router>
+        <div class="button-class">
+          <Link to="/industry">
+            <button className="btn btn-primary">I'm new to the industry</button>
+          </Link>
+          <Link to="#">
+            <button className="btn btn-secondary">
+              I need industry experience
+            </button>
+          </Link>
+        </div>
       </div>
     </section>
   );
-}
+};
 
-export default Firstpage
+export default Firstpage;
