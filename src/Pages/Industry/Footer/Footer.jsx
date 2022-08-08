@@ -15,7 +15,7 @@ const Footer = () => {
     getYear();
   }, []);
   return (
-    <section>
+    <footer>
       <div className="footer-container container">
         <div className="footer1">
           <div className="nav-footer">
@@ -42,6 +42,7 @@ const Footer = () => {
 
         <div className="footer2">
           <div className="date">
+            <hr />
             <p>&copy; {date} Zuri Training</p>
           </div>
           <div className="copyright">
@@ -50,7 +51,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </section>
+    </footer>
   );
 };
 

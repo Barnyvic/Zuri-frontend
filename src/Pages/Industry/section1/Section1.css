@@ -18,14 +18,19 @@ nav {
 
 .nav-logo {
     display: flex;
-    flex: 1;
+    /* flex: 1; */
+    width: 45%;
+}
+
+.nav-logo img {
+    width: 100%;
 }
 
 .nav-links {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    gap:2rem;
+    gap:1.5rem;
 }
 
 .nav-links a{
@@ -54,4 +59,10 @@ nav {
     border-radius: 2rem;
     margin-left: -2rem;
     color: #fff;
+}
+
+@media screen and (max-width: 1120px){
+    .nav-links {
+        display: none;
+    }
 }
