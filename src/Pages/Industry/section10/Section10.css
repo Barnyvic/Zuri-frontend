@@ -1,0 +1,137 @@
+.break {
+  margin: 0 auto;
+}
+
+.break-image {
+  width: 10%;
+  padding-bottom: 2rem;
+}
+
+.break-image img {
+  width: 100%;
+}
+
+.tech-industry {
+  background: var(--color-primary);
+  border-radius: 1.5rem;
+  padding: 1rem 0;
+}
+
+.tech-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.tech-container-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tech-image {
+  padding: 3rem 0 5.5rem 0rem;
+  position: relative;
+  left: 7rem;
+  width: 11%;
+  top: 4rem;
+}
+
+.word-container1 {
+  color: var(--color-modal);
+  margin: auto;
+  padding-top: 1.25rem;
+  width: 50%;
+  text-align: center;
+  position: relative;
+  top: 3rem;
+}
+
+.word-container1 h1 {
+  font-size: 3.4rem;
+  font-weight: 700;
+}
+
+.word-container1 .qual a {
+  padding: 0.5rem 2rem;
+  border-radius: 3rem;
+  background: var(--color-modal);
+  color: var(--color-primary);
+  font-size: 1.124rem;
+  position: relative;
+  top: 2rem;
+}
+
+.circle-cont {
+  position: relative;
+  top: 4rem;
+}
+
+.bend {
+  position: relative;
+  top: -1rem;
+}
+
+.bend1 {
+  position: relative;
+  top: 1rem;
+}
+
+.bend,
+.bend1,
+.circle-cont {
+  width: 13%;
+}
+
+.tech-image img,
+.bend img,
+.bend1 img,
+.circle-cont img {
+  width: 100%;
+}
+
+@media screen and (max-width: 1100px) {
+  .word-container1 {
+    margin: auto;
+    padding: 1.3rem 0;
+    text-align: center;
+    width: 40%;
+  }
+
+  .word-container1 h1 {
+    font-size: 2.87rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+    .break {
+        margin-top: 4rem;
+    }
+
+  .break-image {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .word-container1 {
+    margin: auto;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    text-align: center;
+    width: 55%;
+    top: 2rem;
+  }
+
+  .word-container1 h1 {
+    font-size: 2.25rem;
+  }
+
+  .tech-image {
+    left: 3rem;
+    width: 11%;
+    top: 0rem;
+  }
+
+  .circle-cont {
+    top: 2.5rem;
+  }
+}

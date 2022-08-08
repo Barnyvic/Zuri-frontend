@@ -38,7 +38,7 @@
 }
 
 .tool-card {
-    background: var(--color-bg);
+    background: var(--color-modal);
     border: 1px solid transparent;
     border-radius: 2.5rem;
     transition: var(--transition);

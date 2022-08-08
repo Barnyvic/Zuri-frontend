@@ -12,10 +12,10 @@ const Section8 = () => {
   return (
     <section>
       <hr />
+      <div className="wire-container1">
+        <img src={wire8} alt="" />
+      </div>
       <div className="container accordion">
-        <div className="wire-container">
-          <img src={wire8} alt="" />
-        </div>
         <div className="title-container">
           <span>Got Questions?</span>
           <h1>Frequently Asked Questions</h1>

@@ -19,15 +19,16 @@
     margin: 3rem auto;
 }
 
-.wire-container {
+ .wire-container1 {
     width: 10%;
-    position: relative;
-    top: 2rem;
-    left: 8rem;
+    
 }
 
-.wire-container img {
-    width: 100%;
+.wire-container1 img {
+    width: 80%;
+    position: relative;
+    top: 5rem ;
+    left:10rem;
 }
 
 .button button {
@@ -61,5 +62,13 @@
 
     .fi p {
         padding-bottom: 1rem;
+    }
+
+    .title-container h1{
+        font-size: 1.5rem;
+    }
+
+    .title-container span{
+        font-size: 1.1rem;
     }
 }

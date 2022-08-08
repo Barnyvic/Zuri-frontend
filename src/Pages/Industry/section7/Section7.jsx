@@ -24,8 +24,8 @@ const Section7 = () => {
             <div className="tool-card">
               <h3>{title}</h3>
               <div className="icons">
-                {icons.map((icons, index) => (
-                  <img key={index} src={icons} alt="" />
+                {icons.map((icon, index) => (
+                  <img key={index} src={icon} alt="" />
                 ))}
               </div>
               <p>{description}</p>

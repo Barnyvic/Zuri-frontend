@@ -1,3 +1,10 @@
+/* .section-3{
+    display: grid;
+    place-items: center;
+    background: var(--color-tertiary);
+    width: 100%;
+} */
+
 section.section-three {
     margin: 2rem auto;
     width: 90%;
