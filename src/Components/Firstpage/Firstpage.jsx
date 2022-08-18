@@ -24,7 +24,7 @@ const Firstpage = () => {
           <Link to="/industry">
             <button className="btn btn-primary">I'm new to the industry</button>
           </Link>
-          <Link to="#">
+          <Link to="/Experience">
             <button className="btn btn-secondary">
               I need industry experience
             </button>
