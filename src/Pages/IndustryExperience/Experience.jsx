@@ -18,7 +18,7 @@ function Experience() {
                    <li className='inExp-listitems'><a href="/">Impact</a></li>
                    <li className='inExp-listitems'><a href="/">Why us</a></li>
                 </ul>
-                <p className='talent'>Hire talents</p>
+                <p className='talent small'>Hire talents</p>
             </div>
           </section>
         </section>
@@ -40,7 +40,7 @@ function Experience() {
                 </div>
             </div>
             <img className='Home_img' src={HomeImg} alt="Homeimage" />
-            {/* <img className='line1' src={line1} alt="yellow curved line" /> */}
+            <img className='line1' src={line1} alt="yellow curved line" />
         </section>
     </section>
     {/* Home section ends */}

@@ -16,7 +16,7 @@ background: var(--color-modal);
     z-index: 3;
     left: 0;
     top: 0;
-    height: 15vh;
+    height: 13vh;
 }
 .inExp_Navcontainer{
     padding: 0.6rem;
@@ -80,6 +80,22 @@ transition:0.2s ease-in;
         display: none;
     }
 }
+
+@media screen and (max-width: 450px) {
+    .talent{
+        font-size: 0.9rem;
+        padding: 0.6rem 2rem;
+    }
+}
+@media screen and (max-width: 290px) {
+    .inExp_Navcontainer>img {
+            width: 30%;
+        }
+    .small {
+        font-size: 0.8rem;
+        padding: 0.6rem 1rem;
+    }
+}
 /* Nav section ends */
 
 /* Home section starts */
@@ -134,12 +150,11 @@ transition:0.2s ease-in;
     font-weight: 500;
 }
 
-.line1{
-position: absolute;
-top: 20rem;
-left: 73rem;
-width: 11%;
-}
+
+.line1 {
+        display: none;
+    }
+
 .Home_img{
     width: 35%;
     margin-right: 2rem;
@@ -170,14 +185,78 @@ width: 11%;
         }
 
         .Home_img{
-            width: 100%;
+            width: 80%;
             margin-left: 4rem;
         }
-}@media screen and (max-width: 800px) {
+}
+
+
+
+
+@media screen and (max-width: 800px) {
 .Home-para-p>p {
         width: 30rem;
         text-align: center;
     }
 }
+@media screen and (max-width: 790px) {
+    .Homeheader>h3>img {
+            position: absolute;
+            top: 2rem;
+            left: 26.5rem;
+        }
+}
+@media screen and (max-width: 690px) {
+    .Homeheader>h3>img {
+            position: absolute;
+            top: 6rem;
+            left: 13.5rem;
+        }
+}
+@media screen and (max-width: 450px) {
+    .Homeheader>h3 {
+            font-size: 2.5rem;
+        }
+    .Homeheader>h3>img {
+            position: absolute;
+            top: 6rem;
+            left: 10.5rem;
+        }
+    .Home-para-p > p {
+            width: 25rem;
+            font-size: 1.1rem;
+            padding: 0.9rem;
+            text-align: center;
+        }
 
+                 .Home_img {
+                     width: 100%;
+                     margin-left: 4rem;
+                 }
+}
+
+@media screen and (max-width: 360px){
+.Homeheader>h3 {
+        font-size: 2.3rem;
+        padding: 0 2rem;
+    }
+         .Home-para-p>p {
+            
+             font-size: 1.1rem;
+             padding: 1.6rem;
+            
+         }
+}
+@media screen and (max-width: 290px){
+.Homeheader>h3 {
+        font-size: 2rem;
+        padding: 0 3rem;
+    }
+         .Home-para-p>p {
+           width: 23rem;
+             font-size: 0.8rem;
+             padding: 1.6rem;
+    
+         }
+}
 /* Home section end*/
