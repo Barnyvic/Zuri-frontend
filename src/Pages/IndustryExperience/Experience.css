@@ -249,14 +249,145 @@ transition:0.2s ease-in;
 }
 @media screen and (max-width: 290px){
 .Homeheader>h3 {
-        font-size: 2rem;
+        font-size: 1.7rem;
         padding: 0 3rem;
     }
+        .Homeheader>h3>img {
+            position: absolute;
+            top: 6rem;
+            left: 7.5rem;
+            width: 30%;
+        }
          .Home-para-p>p {
-           width: 23rem;
+           width: 16rem;
              font-size: 0.8rem;
-             padding: 1.6rem;
+             padding: 1rem;
     
          }
+.gray,.talred {
+    padding: 0.4rem 1rem;
+    font-size: 0.8rem;
+}
 }
 /* Home section end*/
+
+/* Impact section starts */
+#Impact-section-main-container{
+    background: url("../../Components/Assets/bgimact.png") no-repeat center center/cover;
+    padding: 3rem;
+}
+.impact-section-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 1rem;
+    gap: 3rem;
+}
+
+.impact-section-content{
+    padding: 1rem;
+}
+.typography1{
+    font-size: 3.4rem;
+    font-weight: 600;
+   
+}
+.typography2{
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-bottom: 0.3rem;
+}
+.typography3{
+    color: #787878;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 0.9rem;
+}
+.countriesSvg{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+.country{
+    background: #fff;
+    padding: 0.5rem;
+}
+.ind {
+    padding: 0.7rem;
+}
+
+.Impact_img{
+    width: 40%;
+}
+
+@media screen and (max-width: 1200px){
+.typography1 {
+        font-size: 3rem;
+        font-weight: 600;
+    }
+        .typography2,
+        .typography3 {
+            font-size: 1.3rem;
+        }
+}
+@media screen and (max-width: 1000px) {
+    .typography1 {
+        font-size: 2.5rem;
+        font-weight: 600;
+    }
+    .typography2,.typography3{
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .impact-section-container{
+        flex-direction: column;
+    }
+         .typography1,.typography2,.typography3 {
+             text-align: center;
+         }
+    .countriesSvg{
+   justify-content: center;
+    }
+    .Impact_img {
+            width: 70%;
+        }
+}
+@media screen and (max-width: 450px){
+.impact-section-content {
+        padding: 0.5rem;
+        margin-right: 3rem;
+}
+.typography1{
+text-align: start;
+width: 20ch;
+font-size: 1.7rem;
+}
+.typography2,
+.typography3 {
+    text-align: start;
+}
+ .countriesSvg {
+     justify-content: space-between;
+ }
+.country{
+    width: 16%;
+}
+.Impact_img {
+    width: 100%;
+}
+}
+@media screen and (max-width: 290px){
+.typography1{
+    font-size: 1.4rem;
+}
+.impact-section-content {
+    padding: 0.5rem;
+    margin-right: 1.5rem;
+}
+    .country {
+        width: 14%;
+    }
+}
