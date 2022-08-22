@@ -312,6 +312,7 @@ transition:0.2s ease-in;
 .country{
     background: #fff;
     padding: 0.5rem;
+    border-radius: 10px;
 }
 .ind {
     padding: 0.7rem;
