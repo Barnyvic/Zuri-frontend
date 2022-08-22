@@ -59,16 +59,35 @@ function Experience() {
           <p className='typography2'>6,000 trained in 14 months</p>
           <p className='typography3'> Talent Placed in 5 countries</p>
           <div className="countriesSvg">
-            <img src={country2} alt="" className="country" />
-            <img src={country1} alt="" className="country" />
-            <img src={country5} alt="" className="country ind" />
-            <img src={country3} alt="" className="country" />
-            <img src={country4} alt="" className="country" />
+            <img src={country2} alt="Germany" className="country" />
+            <img src={country1} alt="England" className="country" />
+            <img src={country5} alt="India" className="country ind" />
+            <img src={country3} alt="Nigeria" className="country" />
+            <img src={country4} alt="USA" className="country" />
           </div>
         </div>
-      
          <img src={impactImg} alt="" className="Impact_img" />
-      
+      </div>
+      <div className="SkillsandTalent">
+        <div className="SkillsandTalent-content">
+          <h3 className='SkillsandTalent-content-header'>Skills of our <span>talents</span> that <br /> you will need</h3>
+          <div className="SkilsandTalent-option1">
+            <p className="options">UI/UX Designers</p>
+            <p className="options">Backend Developers</p>
+            <p className="options">DevOps Engineers</p>
+            <p className="options">Frontend Developers</p>
+             <img src={line1} alt="yellow line svg" />
+          </div>
+          <h3>Where our talents work</h3>
+           <div className="SkilsandTalent-option2">
+            <p className="option2">GitHub</p>
+            <p className="option2">Microsoft</p>
+            <p className="option2">Reskill Americans</p>
+            <p className="option2">Flutterwave</p>
+            <p className="option2">Google</p>
+            <p className="option2">Career Transitioners</p>
+          </div>
+        </div>
       </div>
      </section>
     {/* Impact section ends  */}

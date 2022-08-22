@@ -272,16 +272,13 @@ transition:0.2s ease-in;
 /* Home section end*/
 
 /* Impact section starts */
-#Impact-section-main-container{
-    background: url("../../Components/Assets/bgimact.png") no-repeat center center/cover;
-    padding: 3rem;
-}
 .impact-section-container{
+    background: url("../../Components/Assets/bgimact.png") no-repeat center center/cover;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-    padding: 1rem;
+    padding: 3rem;
     gap: 3rem;
 }
 
@@ -321,7 +318,67 @@ transition:0.2s ease-in;
 .Impact_img{
     width: 40%;
 }
+/* skills and talent start */
+.SkillsandTalent{
+    background: rgb(250, 250, 250);
+    padding: 1rem;
+}
+.SkillsandTalent-content{
+    padding: 1rem;
+}
+.SkillsandTalent-content > h3{
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.00998em;
+    margin-bottom: 2rem;
+}
+.SkilsandTalent-option1{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+.options{
+    background: #fff;
+    padding: 1rem 1rem;
+    font-size: 1.3rem;
+    color: #787878;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+.SkilsandTalent-option1 > img{
+   position: absolute;
+    bottom: 50%;
+    left: 73%;
+    width: 29%;
+}
+.SkilsandTalent-option2{
+    display: flex;
+        align-items: center;
+        flex-direction: row;
+        gap: 1.5rem;
+        flex-wrap: wrap;
+}
+.option2 {
+    background: #fff;
+    padding: 1rem 1rem;
+    font-size: 1.3rem;
+    color: #787878;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10px;
+    
+}
 
+/* skills and talent ends */
+@media screen and (max-width: 1310px) {
+.SkilsandTalent-option1>img {
+        display: none;
+    }
+}
 @media screen and (max-width: 1200px){
 .typography1 {
         font-size: 3rem;
@@ -331,6 +388,10 @@ transition:0.2s ease-in;
         .typography3 {
             font-size: 1.3rem;
         }
+
+.SkillsandTalent-content>h3 {
+     font-size: 1.8rem;
+ }
 }
 @media screen and (max-width: 1000px) {
     .typography1 {
@@ -340,6 +401,10 @@ transition:0.2s ease-in;
     .typography2,.typography3{
         font-size: 1.2rem;
     }
+    .SkillsandTalent-content>h3{
+        text-align: center;
+    }
+
 }
 
 @media screen and (max-width: 950px) {
@@ -355,6 +420,16 @@ transition:0.2s ease-in;
     .Impact_img {
             width: 70%;
         }
+}
+@media screen and (max-width: 600px){
+.SkilsandTalent-option1,.SkilsandTalent-option2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.option2,.options{
+    font-size: 1.1rem;
+    padding: 1rem 0.5rem;
+}
 }
 @media screen and (max-width: 450px){
 .impact-section-content {
@@ -378,6 +453,14 @@ font-size: 1.7rem;
 }
 .Impact_img {
     width: 100%;
+}
+.SkillsandTalent-content>h3 {
+    font-size: 1.5rem;
+}
+.option2,
+.options {
+    font-size: 0.9rem;
+    padding: 0.5rem 0.5rem;
 }
 }
 @media screen and (max-width: 290px){
