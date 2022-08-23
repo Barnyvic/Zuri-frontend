@@ -321,10 +321,10 @@ transition:0.2s ease-in;
 /* skills and talent start */
 .SkillsandTalent{
     background: rgb(250, 250, 250);
-    padding: 1rem;
+    padding: 2rem;
 }
 .SkillsandTalent-content{
-    padding: 1rem;
+    padding: 2rem;
 }
 .SkillsandTalent-content > h3{
     font-size: 2.5rem;
@@ -350,10 +350,13 @@ transition:0.2s ease-in;
     border-radius: 10px;
     margin-bottom: 2rem;
 }
+.options:hover{
+    animation: myAnim 1s ease 0s 1 normal forwards;
+}
 .SkilsandTalent-option1 > img{
    position: absolute;
     bottom: 50%;
-    left: 73%;
+    left: 76%;
     width: 29%;
 }
 .SkilsandTalent-option2{
@@ -370,7 +373,18 @@ transition:0.2s ease-in;
     color: #787878;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     border-radius: 10px;
-    
+}
+.option2:hover{
+    animation: myAnim 1s ease 0s 1 normal forwards;
+}
+@keyframes myAnim {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-30px);
+    }
 }
 
 /* skills and talent ends */
