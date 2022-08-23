@@ -9,6 +9,12 @@ import country3 from "../../Components/Assets/svg/NIG.svg"
 import country4 from "../../Components/Assets/svg/ussa.svg"
 import country5 from "../../Components/Assets/svg/ind.svg"
 import impactImg from "../../Components/Assets/section2.png"
+import redCurve from "../../Components/Assets/svg/redcurve.svg"
+import write from "../../Components/Assets/svg/write.svg"
+import hand from  "../../Components/Assets/svg/hand.svg"
+import mech from "../../Components/Assets/svg/mech.svg"
+import people from "../../Components/Assets/svg/people.svg"
+import many from "../../Components/Assets/svg/many.svg"
 import "../IndustryExperience/Experience.css"
 
 function Experience() {
@@ -22,7 +28,7 @@ function Experience() {
                 <ul>
                    <li className='inExp-listitems'><a href="#Home">Home</a></li>
                    <li className='inExp-listitems'><a href="#Impact-section-main-container">Impact</a></li>
-                   <li className='inExp-listitems'><a href="/">Why us</a></li>
+                   <li className='inExp-listitems'><a href="#whyus">Why us</a></li>
                 </ul>
                 <p className='talent small'>Hire talents</p>
             </div>
@@ -91,8 +97,59 @@ function Experience() {
       </div>
      </section>
     {/* Impact section ends  */}
+    {/* why us starts */}
+    <section id="whyus">
+      <div className="whyuscontainer">
+        <div className="whyus-content_container">
+          <h3>Why Hire our <span>Talents</span></h3>
+          <img src={redCurve} alt="" />
+          <div className="whyus-Content">{
+            whyUsContent.map((items)=>(
+              <div className="content--" >
+                <img src={items.image} alt="" />
+               <p>{items.text}</p>
+              </div>
+            ))
+          }
+          </div>
+          <div className="Homedown2">
+              <p className="talent talred2">Hire Talent</p>
+              <p className='talent gray2'>Join Talent pool</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    {/* why us ends */}
     </section>
   )
 }
+
+const whyUsContent = [
+  {
+    id:1,
+    text:"Zuri Team has a highly skilled set of talents that are built on referral and successful partnerships.",
+    image:people
+  },
+  {
+   id:2,
+    text:"Our recruiters are exceptionally skilled in identifying top talent around the globe and matching them with the client's needs.",
+    image:mech 
+  },
+  {
+    id:3,
+    text:"We have an 85% fill ratio for every open position we partner for.",
+    image:hand
+  },
+  {
+    id:4,
+    text:"Contract renewal rate for our consultant is 90 percent.",
+    image:write
+  },
+  {
+    id:5,
+    text:"60% of our consultants are converted to full-time employees.",
+    image:many
+  }
+]
 
 export default Experience

@@ -383,7 +383,7 @@ transition:0.2s ease-in;
     }
 
     100% {
-        transform: translateY(-30px);
+        transform: translateY(-20px);
     }
 }
 
@@ -489,3 +489,118 @@ font-size: 1.7rem;
         width: 14%;
     }
 }
+
+/* impact us ends */
+
+/* Why us starts */
+#whyus{
+    background: rgb(255, 248, 229);
+    padding: 2rem;
+}
+.whyuscontainer{
+    padding: 2rem;
+}
+.whyus-content_container{
+ padding: 1rem;
+ position: relative;
+}
+.whyus-content_container > h3{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 4rem;
+}
+.whyus-content_container > img{
+position: absolute;
+top: 50%;
+left: -6%;
+}
+
+.whyus-Content{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.content--{
+    background: #fff;
+    text-align: center;
+    color: #787878;
+    padding: 4rem 2rem;
+    border-bottom-right-radius: 30px;
+}
+
+.content--:hover{
+    background: #000;
+    color: #fff;
+}
+.content-- > p{  
+    font-size: 1.3rem;
+    width: 27ch;
+}
+.Homedown2{
+    margin-top: 4rem;
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+}
+.gray2{
+    background: #585858;
+    padding: 0.5rem 2.5rem;
+}
+.talred2{
+padding: 0.5rem 3rem;
+}
+
+@media screen and (max-width: 1200px){
+   .whyus-Content {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 540px){
+    .gray2,.talred2{
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .whyus-content_container>img {
+            display: none;
+        }
+                .content-- {
+                    padding: 3rem 2rem;
+                }
+    .gray,
+    .talred {
+         padding: 0.4rem 1rem;
+         font-size: 0.8rem;
+         }
+}
+@media screen and (max-width: 390px){
+.content-->p {
+        font-size: 1.3rem;
+        width: 23ch;
+    }
+}
+
+@media screen and (max-width: 290px){
+    .whyus-content_container>h3 {
+           
+            font-size: 1.4rem;
+            
+        }
+.content-->p {
+        font-size: 1.3rem;
+        width: 15ch;
+    }
+}
+
+
+
+/* Why us ends */
