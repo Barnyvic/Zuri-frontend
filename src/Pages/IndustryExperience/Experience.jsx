@@ -1,4 +1,5 @@
 import React from 'react'
+import FooterLogo from "../../Components/Assets/svg/FooterLogo.svg"
 import NavLogo from "../../Components/Assets/svg/logo2.svg"
 import HomeImg from "../../Components/Assets/Homeimg.png"
 import thicker from "../../Components/Assets/svg/thick2.svg"
@@ -15,6 +16,10 @@ import hand from  "../../Components/Assets/svg/hand.svg"
 import mech from "../../Components/Assets/svg/mech.svg"
 import people from "../../Components/Assets/svg/people.svg"
 import many from "../../Components/Assets/svg/many.svg"
+import {AiFillFacebook} from "react-icons/ai"
+import  {AiFillLinkedin} from "react-icons/ai"
+import {AiFillTwitterSquare} from "react-icons/ai"
+import {AiFillYoutube} from "react-icons/ai"
 import "../IndustryExperience/Experience.css"
 
 function Experience() {
@@ -120,6 +125,27 @@ function Experience() {
       </div>
     </section>
     {/* why us ends */}
+      <footer>
+       <div className="footer_MainContainer">
+         <div className="footer-Content1">
+         <a href="/Experience"> <img src={FooterLogo} alt="Footer-Logo" /></a>
+          <div className="socials-container">
+            <a href="https://www.facebook.com/thezuriteam/" target="_blank" rel="noopener noreferrer"><AiFillFacebook className='social'/></a>
+            <a href="https://www.linkedin.com/company/zuri-team/" target="_blank" rel="noopener noreferrer"><AiFillLinkedin className='social'/></a>
+            <a href="https://twitter.com/thezuriteam" target="_blank" rel="noopener noreferrer"><AiFillTwitterSquare className='social'/></a>
+            <a href="https://www.youtube.com/thezuriteam" target="_blank" rel="noopener noreferrer"> <AiFillYoutube className='social'/></a>
+          </div>
+         </div>
+         <div className="footer-Content2">
+          <p className='copyright'>&copy;Copyright {new Date().getFullYear()} ZURI TEAM. All rights Reserved</p>
+          <hr className='horizontal'/>
+          <p className="mail"><a href="mailto:talent@zuri.team">talent@zuri.team</a></p>
+         </div>
+       </div>
+      </footer>
+    {/* footer starts */}
+    
+    {/* footer ends */}
     </section>
   )
 }
